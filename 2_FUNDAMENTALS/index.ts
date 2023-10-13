@@ -36,3 +36,9 @@ console.log(typeof a);
 a = true;
 
 console.log(a);
+
+// 4 - inference e annotation
+let ann: string = 'Test';
+let inf = 'Test';
+
+console.log(inf, ann);
